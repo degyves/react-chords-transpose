@@ -81,9 +81,9 @@ To customize the chords and semitones:
 This project is licensed under the GPLV3 License. See the LICENSE file for details.
 
 ## Acknowledgements
-. React
-. Node.js
-. Create React App
+- React
+- Node.js
+- Create React App
 
 Happy transposing!
 
