@@ -40,6 +40,11 @@ Start the development server:
 ```sh
 npm start
 ```
+## Building the app to generate static files to be served:
+
+```sh
+npm run build
+```
 
 Open http://localhost:3000 to view the app in your browser.
 
@@ -75,4 +80,10 @@ To customize the chords and semitones:
 ## License
 This project is licensed under the GPLV3 License. See the LICENSE file for details.
 
+## Acknowledgements
+. React
+. Node.js
+. Create React App
+
+Happy transposing!
 
