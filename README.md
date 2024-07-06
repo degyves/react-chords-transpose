@@ -61,7 +61,7 @@ Copy the build/ folder as react-chords-transpose folder inside the server's loca
 cp -fR build/ ../degyves.github.io/react-chords-transpose/
 ```
 
-Restart your static server, or if you're using GitHub Pages, commit, want a few minutes and Transpose!
+Restart your static server, or if you're using GitHub Pages: commit then push, wait a few minutes and Transpose!
 
 ## Usage
 Enter the chords you want to transpose in the input array.
