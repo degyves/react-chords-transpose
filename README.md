@@ -40,15 +40,30 @@ Start the development server:
 ```sh
 npm start
 ```
+
+Open http://localhost:3000 to view the app in your browser.
+
 ## Building the app to generate static files to be served:
+
+Update the "homepage" at package.json, Example:
+
+```
+"homepage": "https://degyves.github.io/react-chords-transpose",
+```
 
 ```sh
 npm run build
 ```
 
-Open http://localhost:3000 to view the app in your browser.
+Copy the build/ folder as react-chords-transpose folder inside the server's location, e.g. at github:
 
-Usage
+```
+cp -fR build/ ../degyves.github.io/react-chords-transpose/
+```
+
+Restart your static server, or if you're using GitHub Pages, commit, want a few minutes and Transpose!
+
+## Usage
 Enter the chords you want to transpose in the input array.
 Specify the number of semitones to transpose.
 View the original and transposed chords displayed in a table.
