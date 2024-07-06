@@ -17,9 +17,9 @@ This is a React application that transposes musical chords by a specified number
 ### Installation
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/chords-transpose-app.git
-    ```
+```sh
+git clone https://github.com/yourusername/chords-transpose-app.git
+```
 
 2. Navigate to the project directory:
 
@@ -60,17 +60,17 @@ console.table([chords, transposedChords]);
 ```
 
 ## File Structure
-src/transpose.js: Contains the logic for transposing the chords.
-src/App.js: Main React component that integrates the transposition logic and renders the UI.
-src/App.css: Styles for the app, including table borders and dark mode.
-src/components/ToggleSwitch.js: Component for toggling dark mode.
-src/components/ToggleSwitch.css: Styles for the toggle switch component.
+1. src/transpose.js: Contains the logic for transposing the chords.
+1. src/App.js: Main React component that integrates the transposition logic and renders the UI.
+1. src/App.css: Styles for the app, including table borders and dark mode.
+1. src/components/ToggleSwitch.js: Component for toggling dark mode.
+1. src/components/ToggleSwitch.css: Styles for the toggle switch component.
 
 ## Customization
 To customize the chords and semitones:
 
-Modify the chords and semitones variables in App.js.
-Adjust styles in App.css to fit your design preferences.
+1. Modify the chords and semitones variables in App.js.
+1. Adjust styles in App.css to fit your design preferences.
 
 ## License
 This project is licensed under the GPLV3 License. See the LICENSE file for details.
