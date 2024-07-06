@@ -8,6 +8,12 @@ This is a React application that transposes musical chords by a specified number
 - Displays the original and transposed chords in a table.
 - Toggle between light and dark mode for a better visual experience.
 
+## Demo
+
+Try the demo here deployed [at my GitHub Pages!](https://degyves.github.io/#portfolio) 
+
+https://degyves.github.io/
+
 ## Getting Started
 
 ### Prerequisites
