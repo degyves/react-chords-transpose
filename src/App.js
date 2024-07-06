@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import { transposeChords } from './transpose';
 import ToggleSwitch from './components/ToggleSwitch';
+import logo from './logo2.svg';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
   return (
     <div className={`App ${darkMode ? 'dark-mode' : 'light-mode'}`}>
       <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
         <div className="toggle-switch-container">
           <ToggleSwitch
             label="Dark Mode"
